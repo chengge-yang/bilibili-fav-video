@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS bilibili_data;
+USE bilibili_data;
+CREATE TABLE IF NOT EXISTS soucang(
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(500) NOT NULL,
+  author VARCHAR(100) NOT NULL,
+  headshot VARCHAR(500),
+  views VARCHAR(50),
+  video_id VARCHAR(20) NOT NULL UNIQUE
+);
