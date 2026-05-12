@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>我的收藏仪表盘</title>
+</head>
+<body>
+    <h1>我的B站收藏</h1>
+    {% for video in videos %}
+    <div>
+        <h3>{{ video[0] }}</h3>
+        <p>作者：{{ video[1] }} | 播放量：{{ video[3] }}</p>
+    </div>
+    {% endfor %}
+</body>
+</html>
