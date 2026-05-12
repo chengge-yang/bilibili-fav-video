@@ -18,4 +18,3 @@ B站收藏视频看板 - 爬虫+MySQL+Flask
 ·····bash
 pip install -r requirements.txt
 
-
